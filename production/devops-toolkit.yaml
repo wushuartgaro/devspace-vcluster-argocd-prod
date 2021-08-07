@@ -9,11 +9,11 @@ spec:
   project: production
   source:
     path: kustomize/overlays/production
-    repoURL: https://github.com/vfarcic/devspace-vcluster-argocd-demo
+    repoURL: https://github.com/wushuartgaro/devspace-vcluster-argocd-demo
     targetRevision: HEAD
     kustomize:
       images:
-      - vfarcic/devops-toolkit:latest
+      - junerongifast/devops-toolkit:latest
   destination:
     namespace: production
     server: https://kubernetes.default.svc
